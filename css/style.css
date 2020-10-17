@@ -1,0 +1,154 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Img Size */
+img {
+  max-width: 1500px;
+}
+
+/* Links */
+a,
+a:hover,
+a:link,
+a:visited,
+a:active,
+a:focus {
+  color: #08d9d6;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 550px;
+
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/lg/header2.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  color: #08d9d6;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 6rem;
+  text-shadow: 2px 4px 10px black;
+  letter-spacing: 2px;
+}   
+
+/* Main Section */
+main {
+  width: 70%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+  margin-bottom: 6em;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 6em;
+}
+
+.article-content {
+  margin-left: 2em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-family: 'Lato', sans-serif;
+}
+
+.meta {
+  font-size: 1rem;
+  font-style: italic;
+  color: #7a7a7a;
+}
+
+.meta .date {
+  margin-bottom: .5em;
+}
+
+.meta span {
+  color: #08d9d6;
+}
+
+.meta span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.article-title {
+  margin: 20px 0;
+  font-size: 2.5rem;
+}
+
+.article-text {
+  margin: 20px 0;
+  color: #7a7a7a;
+}
+
+.article-content button {
+  align-self: flex-start;
+
+  border: none;
+
+  background-color: white;
+  font-size: 1.3rem;
+  color: #08d9d6;
+
+  cursor: pointer;
+
+  transition: all .3s;
+}
+
+.article-content button:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  height: 5vh;
+  background-color: #08d9d6;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+  .article-container {
+    flex-direction: row;
+    margin-bottom: 60px;
+  }
+
+  .article-title {
+    font-size: 22px;
+  }
+
+  .article-text {
+    min-width: 25ch;
+    font-size: 14px;
+  }
+}
