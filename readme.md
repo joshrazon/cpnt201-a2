@@ -1,7 +1,7 @@
 # CPNT201 - A2: Blog PoC
 
 - Repo: https://github.com/joshrazon/cpnt201-a2
-- GH Pages: 
+- GH Pages: https://joshrazon.github.io/cpnt201-a2/
 - All article text are taken from [wikipedia](https://www.wikipedia.org/)
 - All Images are taken from [unsplash](https://unsplash.com/)
 
